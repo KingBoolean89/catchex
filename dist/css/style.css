@@ -35,13 +35,15 @@ main {
 
 #landing {
     background: #222;
-     width:100%;
+    width: 100%;
 }
-.tradingview-widget-container{
-    width:100%;
+
+.tradingview-widget-container {
+    width: 100%;
 }
-iframe{
-    width:100%;
+
+iframe {
+    width: 100%;
 }
 
 
@@ -55,10 +57,11 @@ iframe{
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
+    color: rgba(102, 248, 72, 0.4);
 }
 
 #landing-text h2 {
-    color: #eee;
+    color: rgba(102, 248, 72, 0.4);
 }
 
 #landing-image {
@@ -88,7 +91,8 @@ iframe{
     margin: 2rem 0 0;
     border-radius: 50px;
     text-decoration: none;
-    color: #fff;
+    color: rgba(102, 248, 72, 0.4);
+    ;
     transition: background 500ms ease;
 }
 
@@ -98,14 +102,15 @@ iframe{
 
 #images {
     background: #222;
-    width:100%;
+    width: 100%;
 }
 
 #header {
     padding: 1.5rem;
     text-align: center;
     background: #333;
-    color: #fff;
+    color: rgba(102, 248, 72, 0.4);
+    ;
 }
 
 #header h2 {
@@ -125,7 +130,7 @@ footer {
     text-align: center;
     padding: 2rem 1rem;
     margin: auto;
-    color: #fff;
+    color: rgba(102, 248, 72, 0.4);
     background: #222;
 }
 

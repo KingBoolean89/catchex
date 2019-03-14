@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CatchEx</title>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6953004402201227",
+    enable_page_level_ads: true
+  });
+</script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -116,45 +123,21 @@
             <h3>Photo One</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
         </div>
+            <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container">
             <div class="tradingview-widget-container__widget"></div>
-            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/" rel="noopener"
-                    target="_blank"><span class="blue-text">Forex</span></a> by TradingView</div>
-            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js"
-                async>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/economic-calendar/"
+                    rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
                 {
                     "width": "100%",
                     "height": "640",
-                    "symbolsGroups": [{
-                        "originalName": "Forex",
-                        "symbols": [{
-                                "name": "FX:EURUSD"
-                            },
-                            {
-                                "name": "FX:GBPUSD"
-                            },
-                            {
-                                "name": "FX:USDJPY"
-                            },
-                            {
-                                "name": "FX:USDCHF"
-                            },
-                            {
-                                "name": "FX:AUDUSD"
-                            },
-                            {
-                                "name": "FX:USDCAD"
-                            },
-                            {
-                                "name": "FX:NZDUSD"
-                            }
-                        ],
-                        "name": "Forex"
-                    }],
-                    "locale": "en"
+                    "locale": "en",
+                    "importanceFilter": "-1,0,1"
                 }
             </script>
         </div>
+        <!-- TradingView Widget END -->
         <div class="caption">
             <h3>Photo Two</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
@@ -189,17 +172,19 @@
         </div>
         <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container">
-            <div class="tradingview-widget-container__widget"></div>
-            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/economic-calendar/"
-                    rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span></a> by TradingView</div>
-            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
-                {
-                    "width": "100%",
-                    "height": "640",
-                    "locale": "en",
-                    "importanceFilter": "-1,0,1"
-                }
-            </script>
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/forex-screener/" rel="noopener" target="_blank"><span class="blue-text">Forex Screener</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+        {
+        "width": "100%",
+        "height": "840",
+        "defaultColumn": "overview",
+        "defaultScreen": "general",
+        "market": "forex",
+        "showToolbar": true,
+        "locale": "en"
+        }
+        </script>
         </div>
         <!-- TradingView Widget END -->
         <div class="caption">
@@ -237,6 +222,7 @@
     <footer class="center bg-dark">
         <p>CatchmeEnt &copy; by:MagnusArtifex</p>
     </footer>
+    
  <script src="js/main.js"></script>   
 </body>
 </html>
