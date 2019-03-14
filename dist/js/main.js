@@ -1,16 +1,16 @@
-TweenMax.from('h1', 1, {
+TweenMax.from('h2', 1, {
     delay: .5,
     x: -300,
     ease: Power2.easeOut
 });
-TweenMax.from('h2', 1, {
+TweenMax.from('h3', 1, {
     delay: 1.8,
     x: 300,
     ease: Power2.easeOut
 });
 
 /*pause a beat then fade whole hedline out*/
-TweenMax.to(['h1,h2'], .5, {
+TweenMax.to(['h2,h3'], .5, {
     delay: 4,
     opacity: 0
 });
