@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech);
+
+/*define the general banner layout*/
+
+figure {
+    width: 100%;
+    height:250px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    overflow: hidden;
+}
+
+
+/*establish a parent/child relationship for precise positioning*/
+
+figure {
+    position: relative;
+    margin:0;
+    padding:0;
+}
+
+figure
+h2,
+ul,
+img,
+button {
+    position: absolute;
+}
+
+
+/*Now dress up the type and layout*/
+figure
+h2 {
+    font-family: 'Share Tech';
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: -3px;
+}
+figure
+button {
+    font: italic 18px 'Georgia';
+    padding: 5px 40px;
+    border: 3px solid white;
+    background-color: rgba(0, 255, 0, .6);
+}
+figure
+li {
+    font-family: 'Share Tech';
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+    font-size: 80px;
+    word-spacing: -10px;
+    line-height: 60px;
+    text-shadow: 0 0 10px black;
+}
+
+
+/*Now position all the elements*/
+/* figure
+img {
+    right: 0;
+} */
+figure
+h2 {
+    top: 30px;
+    left: 0;
+}
+figure
+h3 {
+    top: 120px;
+    right: 0;
+}
+figure
+ul {
+    top: 15px;
+    left: 30px;
+}
+figure
+button {
+    top: 200px;
+    left: 100px;
+}
+
+figure img{
+    width:100%;
+}

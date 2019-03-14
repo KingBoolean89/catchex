@@ -12,6 +12,7 @@ h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     margin: 0;
+     color: rgba(102, 248, 72, 0.4);
 }
 
 h2 {
@@ -19,6 +20,7 @@ h2 {
     font-size: 1.2rem;
     text-transform: capitalize;
     margin: 0;
+     color: rgba(102, 248, 72, 0.4);
 }
 
 img {
@@ -59,8 +61,23 @@ iframe {
     padding-left: 1rem;
     color: rgba(102, 248, 72, 0.4);
 }
+#landing-text p{
+     font-weight: 400;
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     margin: 0;
+     color: rgba(102, 248, 72, 0.4);
+}
 
-#landing-text h2 {
+#header p {
+    font-weight: 400;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: rgba(102, 248, 72, 0.4);
+}
+
+#landing-text h1 h2 p {
     color: rgba(102, 248, 72, 0.4);
 }
 
